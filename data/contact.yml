@@ -1,0 +1,16 @@
+enable: true
+heading: Get In
+headingSpan: Touch
+title: Contact Details
+enable_maps: true
+mapLatitude: 41.8781
+mapLongitude: -87.6298
+contactDetails:
+  - icon: tf-map-pin
+    info: "Chicago IL, United States"
+
+  - icon: tf-ion-ios-telephone-outline
+    info: "Phone: (217) 390-0045"
+
+  - icon: tf-ion-ios-email-outline
+    info: "Email: admin@timcardwell.com"

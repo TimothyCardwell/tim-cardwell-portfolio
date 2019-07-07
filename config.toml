@@ -1,0 +1,60 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Tim Cardwell"
+theme = "meghna-hugo"
+summaryLength = 10
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "About Me"
+    URL = "about-me"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Skills"
+    URL = "skills"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact"
+    weight = 4
+
+# Site params
+[params]
+home= "Home"
+logo = "images/logo.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Portfolio"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "UA-143419917-1"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/header-bg.jpg"
+    icon = "tf-ion-play"
+    heading = "Tim Cardwell"
+    content= "TODO Place some content here"
+    btn = true
+    btnText="More"
+    btnURL="#overview"
+
+    # footer
+    [params.footer]
+        copyright = "Themefisher Team"
+        copyrightURL = "http://www.themefisher.com"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        url = "https://www.linkedin.com/in/tim-cardwell/"

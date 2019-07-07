@@ -1,0 +1,15 @@
+enable: true
+heading: About
+headingSpan: Me
+aboutItem:
+  - icon: tf-tools
+    title: I'm a Leader
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+  - icon: tf-strategy
+    title: I'm a Teamplayer
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+  - icon: tf-anchor2
+    title: I'm Experienced
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
