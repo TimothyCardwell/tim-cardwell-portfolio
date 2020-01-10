@@ -43,12 +43,12 @@ custom_css = ["css/custom.css"]
     [params.banner]
     enable = true
     bgImage = "images/header-bg.jpg"
-    icon = "tf-ion-play"
+    icon = "images/tim.jpg"
     heading = "Tim Cardwell"
-    content= "TODO Place some content here"
+    content= "Providing modern software solutions"
     btn = true
     btnText="More"
-    btnURL="#overview"
+    btnURL="#about-me"
 
     # footer
     [params.footer]
