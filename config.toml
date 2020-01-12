@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Tim Cardwell"
@@ -33,7 +33,7 @@ home= "Home"
 logo = "images/logo.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
-description = "Portfolio"
+description = "Building Modern Software"
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "UA-143419917-1"
@@ -58,3 +58,23 @@ custom_css = ["css/custom.css"]
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-linkedin"
         url = "https://www.linkedin.com/in/tim-cardwell/"
+
+[deployment]
+[[deployment.targets]]
+name = "timcardwellwebsite"
+URL = "gs://www.timcardwell.com"
+
+[[deployment.matchers]]
+#  Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
