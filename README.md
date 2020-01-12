@@ -7,3 +7,9 @@ https://cloud.google.com/storage/docs/hosting-static-website
 Install [Hugo CLI](https://github.com/gohugoio/hugo/releases)
 Set the [environment variable correctly](https://cloud.google.com/docs/authentication/production#obtaining_and_providing_service_account_credentials_manually)
 Run `hugo deploy`
+
+# Remaining TODOs
+
+- Proof read content
+- Fix SSL (GCP Static Site Hosting sucks)
+- Implement form to actually send email
