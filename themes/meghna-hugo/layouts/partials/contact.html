@@ -46,7 +46,7 @@
                             id="message"></textarea>
                     </div>
                     <div id="mail-success" class="success">
-                        Thank you. The Mailman is on His Way :)
+                        Thank you for reaching out, I'll be in contact soon!
                     </div>
                     <div id="mail-fail" class="error">
                         Sorry, don't know what happened. Try later :(
@@ -62,7 +62,8 @@
     {{ if .Site.Data.contact.enable_maps }}
     {{"<!-- Google Map -->" | safeHTML}}
     <div class="google-map">
-        <div id="map-canvas" {{ with .Site.Data.contact.mapLatitude }} data-latitude="{{ . }}" {{ end }} {{ with .Site.Data.contact.mapLongitude }} data-longitude="{{ . }}" {{ end }}></div>
+        <div id="map-canvas" {{ with .Site.Data.contact.mapLatitude }} data-latitude="{{ . }}" {{ end }}
+            {{ with .Site.Data.contact.mapLongitude }} data-longitude="{{ . }}" {{ end }}></div>
     </div>
     {{ end }}
 </section>

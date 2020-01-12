@@ -43,7 +43,7 @@ custom_css = ["css/custom.css"]
     [params.banner]
     enable = true
     bgImage = "images/header-bg.jpg"
-    icon = "images/tim.jpg"
+    icon = ""
     heading = "Tim Cardwell"
     content= "Providing modern software solutions"
     btn = true
