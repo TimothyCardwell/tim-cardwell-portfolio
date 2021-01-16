@@ -42,7 +42,7 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/header-bg.jpg"
+    bgImage = "images/tim.jpg"
     icon = ""
     heading = "Tim Cardwell"
     content= "Providing modern software solutions"
@@ -58,6 +58,10 @@ custom_css = ["css/custom.css"]
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-linkedin"
         url = "https://www.linkedin.com/in/tim-cardwell/"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-github"
+        url = "https://github.com/TimothyCardwell"
 
 [deployment]
 [[deployment.targets]]

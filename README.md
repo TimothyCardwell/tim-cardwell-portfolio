@@ -17,15 +17,13 @@ https://cloud.google.com/storage/docs/hosting-static-website
 
 ## How to Deploy
 
-Install [Hugo CLI](https://github.com/gohugoio/hugo/releases)
-Set the [environment variable correctly](https://cloud.google.com/docs/authentication/production#obtaining_and_providing_service_account_credentials_manually)
-Run `hugo deploy`
+1. Run the command `hugo`
+2. Navigate to the submodule, commit, and push up
+
+Further reading...
+https://gohugo.io/getting-started/usage/#deploy-your-website
+https://gohugo.io/hosting-and-deployment/hosting-on-github/#step-by-step-instructions
 
 # Remaining TODOs
 
-- Add photo
-- Proof read content
 - New tag line
-- Confirm SSL once Github Pages generates the certificate
-- Implement form to actually send email
-- Setup analytics

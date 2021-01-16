@@ -14,7 +14,8 @@
             {{"<!-- /section title -->" | safeHTML}}
 
             {{"<!-- Contact Details -->" | safeHTML}}
-            <div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
+            <div class="contact-info col-lg-12 wow fadeInUp" data-wow-duration="500ms"
+                style='display: flex; flex-direction: column; align-items: center;'>
                 {{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}
                 {{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}
                 <div class="contact-details">
@@ -28,7 +29,7 @@
             </div>
 
             {{"<!-- Contact Form -->" | safeHTML}}
-            <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+            <!-- <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
                 <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
 
                     <input name="e-mail" type="text" id="e-mail" autocomplete="off">
@@ -54,9 +55,9 @@
                     <div id="cf-submit">
                         <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
                     </div>
-                </form>
-            </div>
+                </form> -->
         </div>
+    </div>
     </div>
 
     {{ if .Site.Data.contact.enable_maps }}
