@@ -33,7 +33,7 @@ home= "Home"
 logo = "images/logo.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDKR_NQ2i_JomSivfr3xfslhTMJ21YtUpk&libraries=places"
 # Meta data
-description = "Building Modern Software"
+description = "Software Engineer Providing Modern Software Solutions"
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "UA-143419917-1"
